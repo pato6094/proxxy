@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+    <title>Web proxy policies</title> <link rel="canonical" href="web-proxy-policies.html"><html lang="en">
+
+<!-- Mirrored from proxyium.com/web-proxy-policies by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Jan 2026 16:10:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+    <!-- Google tag (gtag.js) -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7K0KDNLEWZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-7K0KDNLEWZ');
+    </script>
+
+    <!-- BASIC META-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Proxyium">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--page specific tags-->
+
+    <meta name='description' content='Proxyium web proxy policies'>
+    <meta property='og:description' content='Proxyium web proxy policies'>
+    <meta name='keywords' content='Web proxy policies, Proxyium Web proxy policies'>
+    <meta name="facebook-domain-verification" content="00e61yfdunfqc7twc7qnsqx13g61vl"/>
+    <meta property='og:title' content='Web proxy policies'>
+
+    <!-- FAVICON -->
+
+    <link rel="icon" href="assets/img/favicon7b30.ico?v=4">
+    <meta content='/assets/img/favicon.png?v=4' property='og:image'>
+    <link rel="preload" as="font" href="assets/fnt/Montserrat-SemiBold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font"
+          href="assets/fnt/Montserrat-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font"
+          href="assets/fnt/Montserrat-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font"
+          href="assets/fnt/Montserrat-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.min3860.css?v=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min3860.css?v=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.min3860.css?v=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2aec.css?v=40">
+    <link rel="stylesheet" type="text/css" href="assets/css/main2048.css?v=1.5">
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.min3860.css?v=1">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.nice-select2.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style>
+        <!--
+        a.gflag {
+            vertical-align: middle;
+            font-size: 24px;
+            padding: 1px 0;
+            background-repeat: no-repeat;
+            background-image: url(../gtranslate.net/flags/24.png);
+        }
+        a.gflag img {
+            border: 0;
+        }
+        a.gflag:hover {
+            background-image: url(../gtranslate.net/flags/24a.png);
+        }
+        -->
+    </style>
+    <script type="text/javascript">
+        function doGTranslate(lang_pair)
+        {
+            if(lang_pair.value) {
+                lang_pair = lang_pair.value;
+            }
+            if(lang_pair == '') {
+                return;
+            }
+            var lang = lang_pair.split('|')[1];
+            var plang = location.pathname.split('index.html')[1];
+            if(plang.length != 2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw') {
+                plang = 'en';
+            }
+            if(lang == 'en') {
+                location.href = location.protocol + '//' + location.host +
+                    location.pathname.replace('/' + plang + '/', 'index.html') +
+                    location.search;
+            }
+            else {
+                location.href = location.protocol + '//' + location.host +
+                    '/' + lang + location.pathname.replace('/' + plang + '/', 'index.html') +
+                    location.search;
+            }
+        }
+
+        $(document).ready(function() {
+            $('select').niceSelect();
+            $("#sticky-wrapper").sticky({topSpacing: 0, zIndex: 5});
+            $("#bottomlogo")
+                .html(
+                    "<img src='/assets/img/logo-light.png' alt='proxyium light logo'>");
+            $('footer').css('background-image', 'url(/assets/img/footer-bg.png)');
+            $('<img/>')
+                .attr('src', 'assets/img/background.png')
+                .on('load', function() {
+                    $(this).remove();
+                    $('body')
+                        .css('background-image', 'url(/assets/img/background.png)');
+                    $('body').css('background-color', '#fff');
+                });
+            $(document).click(function(event) {
+                if(!$(event.target).is('#mainmenu *')) {
+                    if($(window).width() <= 767) {
+                        $('#mainmenu').collapse('hide')
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script async
+            src="../pagead2.googlesyndication.com/pagead/js/f86e9.txt?client=ca-pub-4989892168778415"
+            crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<header>
+    <nav id="sticky-wrapper">
+        <div class="container accordion" id="navaccordion">
+            <div class="row">
+                <div class="col-md-5 mobile-toggler-wrapper">
+                    <a href="index.html" id="logoheadurl">
+                        <img src="assets/img/logo-dark.png" id="toplogo"
+                             alt="dark Proxyium logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><svg height="384pt"
+                                                               viewBox="0 -53 384 384" width="384pt"
+                                                               xmlns="http://www.w3.org/2000/svg"><path
+                                    d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path
+                                    d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path
+                                    d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/></svg></span>
+                    </button>
+                </div>
+                <div class="col-md-7 navigation-container">
+                    <div class="navigation navbar-expand">
+                        <ul class="list-inline text-right collapse navbar-collapse" id="mainmenu">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown current-menu-has-children">
+                                <a data-toggle="collapse" data-target="#helpmenu"
+                                   aria-controls="helpmenu" aria-expanded="false"
+                                   aria-label="Toggle help navigation" class="collapsed">Usecases
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                         data-icon="angle-down"
+                                         class="svg-inline--fa fa-angle-down fa-w-10" role="img"
+                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path
+                                            d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                    </svg>
+                                </a>
+                                <div class="collapse" id="helpmenu" data-parent="#navaccordion">
+                                    <ul class="dropdown-nav dropdown-nav-left">
+                                        <li><a href="index.html">General web proxy</a></li>
+                                        <li><a href="youtube.html">YouTube web proxy</a></li>
+                                        <li><a href="website-unblocker.html">Website unblocker</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li class="dropdown current-menu-has-children">
+                                <a data-toggle="collapse" data-target="#langmenu" aria-controls="langmenu" aria-expanded="false" aria-label="Toggle language navigation" class="collapsed"><i class="sprite sprite-gb_flag" role="img" aria-label="[Current language: english]"></i><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></a>                                <div class="collapse" id="langmenu" data-parent="#navaccordion">
+                                    <ul class="dropdown-nav dropdown-nav-left notranslate"
+                                        style="max-height: 270px;overflow-y: scroll;">
+                                        <li><a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="nturl"><i class="sprite sprite-gb_flag"  role="img" aria-label="[Select: English]"></i> English</a></li><li><a href="#" onclick="doGTranslate('en|ja');return false;" title="Japanese" class="nturl"><i class="sprite sprite-jp_flag"  role="img" aria-label="[Select: Japanese]"></i> 日本</a></li><li><a href="#" onclick="doGTranslate('en|tr');return false;" title="Turkish" class="nturl"><i class="sprite sprite-tr_flag"  role="img" aria-label="[Select: Turkish]"></i> Türk</a></li><li><a href="#" onclick="doGTranslate('en|pa');return false;" title="Punjabi" class="nturl"><i class="sprite sprite-pk_flag"  role="img" aria-label="[Select: Punjabi]"></i> پنجابی</a></li><li><a href="#" onclick="doGTranslate('en|hi');return false;" title="Hindi" class="nturl"><i class="sprite sprite-in_flag"  role="img" aria-label="[Select: Hindi]"></i> हिन्दी</a></li><li><a href="#" onclick="doGTranslate('en|id');return false;" title="indonesian" class="nturl"><i class="sprite sprite-id_flag"  role="img" aria-label="[Select: indonesian]"></i> bahasa Indonesia</a></li><li><a href="#" onclick="doGTranslate('en|ru');return false;" title="Russian" class="nturl"><i class="sprite sprite-ru_flag"  role="img" aria-label="[Select: Russian]"></i> Pусский</a></li><li><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="nturl"><i class="sprite sprite-de_flag"  role="img" aria-label="[Select: German]"></i> Deutsch</a></li><li><a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="nturl"><i class="sprite sprite-pt_flag"  role="img" aria-label="[Select: Portuguese]"></i> Português</a></li><li><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="nturl"><i class="sprite sprite-fr_flag"  role="img" aria-label="[Select: French]"></i> Français</a></li><li><a href="#" onclick="doGTranslate('en|zh-CN');return false;" title="Chinese (Simplified)" class="nturl"><i class="sprite sprite-cn_flag"  role="img" aria-label="[Select: Chinese (Simplified)]"></i> 简体中文</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title ">
+                    <h1>Web proxy policies</h1>
+                    <img src="assets/img/section-shape5e1f.png?v=2"
+                         alt="section-shape">
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="itemcard legal">
+
+                    <p>By using this website and our proxy servers, mentioned below as "proxyium.com", "service",
+                        "we", "us" you agree to the following:</p>
+
+                    <h2>Disclaimer</h2>
+
+                    <p>
+                        This service is provided as is, without warranty of any kind. Use of this service is entirely at your
+                        own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service.
+                    </p>
+                    <p>
+                        The information, services and products available to you on this website may contain errors and are
+                        subject to periods of interruption. While we do our best to maintain the information, services
+                        and products it offers, we can not be held responsible for any errors, defects, lost profits or other
+                        consequential damages arising from the use of the service, even if we have been advised of the possibility
+                        of such damages.
+                    </p>
+                    <p>
+                        PROXYIUM.COM PROVIDES THE INFORMATION, SERVICES AND PRODUCTS AVAILABLE ON THIS WEBSITE "AS IS," WITH NO
+                        WARRANTIES WHATSOEVER. ALL EXPRESS WARRANTIES AND ALL IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
+                        MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS
+                        ARE HEREBY DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW.
+                    </p>
+                    <p>
+                        IN NO EVENT SHALL PROXYIUM.COM BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL AND
+                        EXEMPLARY DAMAGES, OR ANY DAMAGES WHATSOEVER, ARISING FROM THE USE OR PERFORMANCE OF THIS WEBSITE OR
+                        FROM ANY INFORMATION, SERVICES OR PRODUCTS PROVIDED THROUGH THIS WEBSITE, EVEN IF PROXYIUM.COM HAS BEEN
+                        ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IF YOU ARE DISSATISFIED WITH THIS WEBSITE, OR ANY PORTION
+                        THEREOF, YOUR EXCLUSIVE REMEDY SHALL BE TO STOP USING THE WEBSITE.
+                    </p>
+                    <p>
+                        The service allows indirect browsing of external, third-party websites. The term "indirect browsing"
+                        refers to the server which you connect to. During "direct" browsing,
+                        you connect to the server which provides the resource you are requesting. During "indirect" browsing,
+                        you connect to our server, and it downloads the requested resource and forwards it to you.
+                    </p>
+                    <p>
+                        We are not responsible for the
+                        content on any external websites that may be accessible through our service. We will not be responsible for any
+                        contamination or damage a user sustains as a result of entering a website through the service. A website viewed through
+                        our service is in no way owned by or associated with this service.
+                    </p>
+                    <p>
+                        By connecting to our server instead of the target server, the target server does not see your IP address.
+                        However, we do not guarantee our service will be fully anonymous.
+                        The downloaded resource may reference other resources which your browser may automatically download.
+                        The service attempts to reroute all such requests through our server but may not be entirely successful.
+                    </p>
+                    <p>
+                        Any resource (such as web pages, images, files) downloaded through our service may be modified.
+                        The resource which you receive may not be an accurate representation of the resource requested.
+                    </p>
+
+                    <h2>Legal use</h2>
+
+                    <p>
+                        This service may only be used for legal purposes. Like an Internet Service Provider (ISP), barring any
+                        technical issues, this service allows the user to access any website on the Internet network.
+                        It is the responsibility of the end user to use the abilities this service grants in a manner that is consistent
+                        with locals laws and policies in effect at the user's personal location and laws and policies in effect at location
+                        of the website that user visits using this service.
+                        The users of this service, and not the owners and operators of this service, are responsible
+                        for any consequences stemming from any improper or illegal usage of the service.
+                    </p>
+
+                    <p>The service may not be used for any of the following forbidden uses:</p>
+
+                    <ul>
+                        <li>For any illegal purpose including but not limited to the transmission or receipt of illegal material.</li>
+                        <li>To contact or communicate with minors in a manner prohibited by law.</li>
+                        <li>To violate copyrights or to break other forms of intellectual property law.</li>
+                        <li>To engage in spamming, indiscriminate advertising, unsolicited commercial email, mass news posts, or any other kind of abuse of the network.</li>
+                        <li>To transmit any unlawful, harassing, libellous, abusive, threatening, harmful, or hateful material of any kind or nature.</li>
+                    </ul>
+
+                    <p>
+                        We reserve the right to cooperate with appropriate law enforcement agencies about any activities conducted via
+                        this service that may violate any law enforceable in the jurisdiction under which the service is
+                        run.
+                    </p>
+
+                    <h2>Abuse of the service</h2>
+
+                    <p>
+                        Provided services operate with significant, but limited and expensive, resources,
+                        such as ram, processing power, and bandwidth. In using this service, you agree not to abuse the
+                        service by using an excessive number of these limited resources. Users or groups of users who are
+                        believed to be abusing the service by using excessive resources, are not welcome to use the service
+                        and their access may be blocked by the administrator.
+                    </p>
+
+                    <p>Examples of abusive use of resources are:</p>
+
+                    <ul>
+                        <li>Automatically crawling pages using this service.</li>
+                        <li>Repeatedly requesting the same resources over and over again.</li>
+                        <li>Hotlinking to pages, images, or files provided by the service.</li>
+                        <li>Transferring excessively large files. Files larger than a specified size are automatically cut off.</li>
+                        <li>Feeding a robot, automatic process, or other non-human browser.</li>
+                        <li>Any other activity that would cause significantly larger amounts of load on our servers than an average user would normally cause to be used.</li>
+                    </ul>
+
+                    <h2>Service name usage restriction</h2>
+
+                    <p>
+                        "Proxyium" is a protected trademark. It is strictly prohibited to use, reproduce, or
+                        display the this name or logo in any form or medium without prior written consent. Unauthorized use may result in legal action.
+                    </p>
+
+                    <h2>Changes</h2>
+
+                    <p>
+                        We reserve the right to change these terms at any time as determined necessary by the service's
+                        administrators.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-main">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="itemcard">
+                        <div class="logo">
+                            <a href="index.html" id="bottomlogo"></a>
+                        </div>
+                        <p>Thanks for using our web proxy! Need help? Contact us here:</p>
+                        <div>
+                            <div class="footer-links">
+                                <ul>
+                                    <li><a class="openwidget" data-openwidget-action="maximize">Contact</a></li>
+                                </ul>
+                            </div>
+                            <p>Thanks to everyone for the amazing support!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 ">
+                    <div class="itemcard mgl30">
+                        <h2>Quick Links</h2>
+                        <div class="footer-links">
+                            <ul>
+                                <li><a class="openwidget" data-openwidget-action="maximize">Contact</a></li>
+                                <li><a href="web-proxy-policies.html">Web proxy policies</a></li>
+                                <li><a href="privacy-policy.html">Privacy policy</a></li>
+                                <li><a href="languages.html">Languages</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 ">
+                    <div class="itemcard mgl30">
+                        <h2>Web proxy usecases</h2>
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="youtube.html">YouTube web proxy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <!-- footer text -->
+        </div>
+    </div>
+</footer>
+
+<!-- Start of OpenWidget (www.openwidget.com) code -->
+<script>
+    window.__ow = window.__ow || {};
+    window.__ow.organizationId = "73b4d55c-ad7e-49d3-b668-f38dc5d62097";
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="../cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
+    OpenWidget.on('ready', () => {
+        OpenWidget.call('hide');
+    });
+</script>
+<noscript>You need to <a href="https://www.openwidget.com/enable-javascript" rel="noopener nofollow">enable JavaScript</a> to use the communication tool powered by <a href="https://www.openwidget.com/" rel="noopener nofollow" target="_blank">OpenWidget</a></noscript>
+<!-- End of OpenWidget code -->
+</body>
+
+<!-- Mirrored from proxyium.com/web-proxy-policies by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Jan 2026 16:10:45 GMT -->
+</html>
